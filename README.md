@@ -2,12 +2,12 @@
 
 hello, phprpc + php + mysql 
 
-### 创建数据库：
+### 1. 创建数据库：
 <pre>
 create database phprpc_php_mysql default character set utf8;
 </pre>
 
-### 创建 user 表：
+### 2. 创建 user 表：
 <pre>
 use phprpc_php_mysql;
 
@@ -20,3 +20,5 @@ CREATE TABLE user (
 
 INSERT INTO user(username, password) values('admin', 'admin');
 </pre>
+
+### 3.配置 config.php
